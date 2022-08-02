@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sözleşme</title>
+
+    
+</head>
+<body>
+    <h1>ABC Tasarım Programı Kurulum ve Satış Sözleşmesi</h1>
+    <form action="result.html" method="get">
+
+        <div>
+            <fieldset>
+                <legend>Sözleşme Onay</legend>
+                <input type="checkbox" name="sozlesme-onay" id="onay">
+                <label for="onay">Aşağıdaki Bilgilerin doğruluğunu kabul ediyorum ve sözleşmeyi onaylıyorum.</label> <br>
+                <input type="submit" value="Formu Kaydet">
+                <input type="reset" value="Formu Temizle">
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+                <table>
+                     <tr>    
+                        <legend>Kişisel Bilgiler</legend>
+                        <td><label for="id">Form Günvenlik ID </label></td>
+                        <td><input type="text" name="Girilen-id" id="id"></td> 
+                    </tr>
+                    
+                    <tr>
+                        <td><label for="ad">Ad</label></td>
+                        <td><input type="text" name="Girilen-ad" id="ad"> </td>
+                    </tr>
+                    
+
+
+                <tr>
+                    <td><label for="soyad">Soyad</label></td> 
+                    <td><input type="text" name="Girilen-soyad" id="soyad"> </td> 
+                 </tr>
+                   
+                <tr> 
+                        <td><label for="yas">Yaş</label></td> 
+                        <td> <input type="text" name="Girilen-yas" id="yas"></td> 
+                </tr>
+                <tr>
+                    <td> <label for="email">Mail Adresi</label></td>
+                     <td><input type="email" name="Girilen-email" id="email"></td>
+            </tr>
+                
+            <tr>
+                    <td><label for="dosya">Fotoğraf Ekle</label></td> 
+                    <td><input type="file" name="Secilen-dosya" id="dosya"></td>
+            </tr>
+      
+            </table>
+           
+        </fieldset>
+    </div>
+
+    <div>
+        <fieldset>
+            <legend>Diğer Bilgiler</legend>
+            <table> 
+                <tr>
+                    <td><label for="tarih">Sektöre Giriş Tarihi</label></td>
+                    <td><input type="date" name="Girilen-tarih" id="tarih"></td>
+                </tr>
+                
+                <tr>   
+                     <td><label for="">Sektör Deneyimi</label></td>
+                     <td><input type="radio" name="secilen-deneyim" id="deneyim1">
+                     <label for="deneyim">1-5 yıl</label> <br>
+                    <input type="radio" name="secilen-deneyim" id="deneyim2">
+                    <label for="deneyim2">6-10 yıl</label><br>
+                    <input type="radio" name="secilen-deneyim" id="deneyim3">
+                    <label for="deneyim3">11-15 yıl</label> <br>
+                    <input type="radio" name="secilen-deneyim" id="deneyim4">
+                    <label for="deneyim4">15 üzeri</label></td>
+                </tr>
+               
+                <tr>  
+                    <td><label for="diller">Programlama Dilleri</label></td>
+                    
+                     <td><select name="secilen-diller" id="diller" size="4" multiple>
+                        <option value="C#">C#</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Java">Java</option>
+                        <option value="JavaScript">JavaScript</option>
+                    </select></td>  
+                </tr>
+              
+            </table>
+        </fieldset>
+    </div>
+
+    <div>
+        <fieldset>
+            <legend>Sözleşme Kopyası</legend>
+            <label for="sozlesme"></label>
+            <textarea name="sozlesme-kopyası" id="sozlesme" cols="30" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur obcaecati expedita modi unde quam reprehenderit voluptatem vitae, eius repudiandae perferendis, quasi suscipit voluptatum, laborum eum cumque. Officia, iure? Maiores, nobis.</textarea>
+        </fieldset>
+    </div>
+
+
+    <div>
+        <fieldset>
+            <legend>Mail Listesi</legend>
+            <label for="mail1">Mail Listesine Katılmak <strong>İstiyorum</strong> </label>
+            <input type="radio" name="mail-istek" id="mail1"> <br>
+            <label for="mail2">Mail Listesine Katılmak  <ins><strong>İstemiyorum</strong></ins> </label>
+            <input type="radio" name="mail-istek" id="mail2">
+        </fieldset>
+    </div>
+</form>
+</body>
+</html>
